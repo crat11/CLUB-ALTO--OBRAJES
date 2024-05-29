@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  background: url(/assets/img/fondo-balon.png);
+  font-size: 30px;
+  padding: 0;
+}
+main .container-fluid {
+  justify-content: center;
+}
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: white;
+}
+
+section {
+  text-align: center;
+  background: #fff;
+  justify-content: center;
+}
+
+h2 {
+  display: inline-block;
+  position: relative;
+  color: gray;
+}
+
+h2::after,h2::before {
+  content: " ";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: currentColor;
+  top: 0.6em;
+}
+
+h2::before {
+  left: -140px;
+}
+h2::after {
+  right: -140px;
+}

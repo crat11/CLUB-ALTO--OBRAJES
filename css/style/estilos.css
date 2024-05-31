@@ -62,7 +62,7 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 1.5rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -3445,7 +3445,7 @@ fieldset:disabled .btn {
   --bs-btn-color: #8c00ff;
   --bs-btn-border-color: #8c00ff;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #8c00ff;
+  --bs-btn-hover-bg: #8c00cc;
   --bs-btn-hover-border-color: #8c00ff;
   --bs-btn-focus-shadow-rgb: 255, 200, 0;
   --bs-btn-active-color: #fff;
@@ -4976,7 +4976,7 @@ fieldset:disabled .btn {
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e6b400'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  --bs-accordion-btn-focus-border-color: #d780ff;
+  --bs-accordion-btn-focus-border-color: #b83bf1;
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(128, 0, 255, 0.25);
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;

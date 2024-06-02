@@ -13335,14 +13335,28 @@ h1 small {
   line-height: 1;
   color: #777;
 }
+.container .row section {
+  display: block;
+  padding: 0 15px;
+  width: 100%;
+  height: 790px;
+}
 
-iframe {
+.container .row section #googlemaps iframe {
   border: 0;
-  width: 70%;
-  height: 10%;
+  width: 80%;
+  height: 768px;
   position: absolute;
 }
 #googlemaps {
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 350px) and (max-width: 991.98px) {
+  .container iframe {
+    width: 100%;
+    height: 5%;
+  }
+
 }
